@@ -1,0 +1,50 @@
+h1,h2{
+    font-family: 'Montserrat';
+    padding-top:20px;
+    padding-bottom:20px;
+    text-align:center;
+    margin:auto;
+    color:#007bff;
+}
+
+img{
+    width:50%;
+    margin-left:300px;
+    height:400px;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
+p{
+    width:50%;
+    text-align:left;
+    margin:auto;
+    padding-top:30px;
+    padding-bottom:30px;
+    line-height:32px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+hr{
+    width:60%;
+    border-top:solid 1.5px #007bff;
+}
+
+.iiche,.design{
+    background-color:#EEEEEE;
+    margin-bottom:10px;
+    margin-top:20px;
+}
+
+/* media queries for clubs */
+
+@media screen and (max-width:1020px){
+    img,p{
+        margin-left:100px;
+        margin-right:100px;
+        width:80%;
+    }
+    h1,h2{
+        margin-left:50px;
+    }
+}

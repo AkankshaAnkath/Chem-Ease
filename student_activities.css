@@ -1,0 +1,98 @@
+img{
+    width:50%;
+    height:600px;
+    position:relative;
+    left:300px;
+    top:30px;
+    margin-bottom:60px;
+    opacity:0.9;
+}
+
+#carousel-text h3{
+    padding-top:20px;
+    padding-bottom:30px;
+    text-align:center;
+    font-family: 'Montserrat';
+    color:#7e5db0;
+}
+
+#carousel-text h4{
+    padding-top:20px;
+    padding-bottom:30px;
+    text-align:center;
+    font-family: 'Montserrat';
+    color:#7e5db0;
+}
+
+p{
+    font-size:18px;
+    width:700px;
+    text-align:left;
+    margin:auto;
+    padding-top:10px;
+    padding-bottom:40px;
+}
+
+.hr{
+    width:10%;
+    border-top:2px dotted #7e5db0;
+}
+
+a{
+    position:relative;
+    left:575px;
+    bottom:30px;
+}
+
+.carousel-control-prev-icon{
+    position:relative;
+    left:150px;
+    filter: invert(100%);
+}
+
+.carousel-control-next-icon{
+    position:relative;
+    left:300px;
+    filter: invert(100%);
+}
+
+.head_act{
+    font-size:40px;
+    font-family: 'Montserrat';
+    text-align:center;
+    padding-top: 50px;
+    color:#7e5db0;
+}
+
+/* media queries for student activities */
+
+@media screen and (max-width:873px){
+    img{
+        width:80%;
+        position:relative;
+        left:100px;
+    }
+}
+
+@media screen and (max-width:755px){
+    p{
+        width:80%;
+        margin-left:20px;
+        margin-right:20px;
+    }
+}
+
+@media screen and (max-width:638px){
+    img{
+        width:80%;
+        position:relative;
+        left:50px;
+    }
+}
+
+@media screen and (max-width:1100px){
+    a{
+        position:relative;
+        left:75px;
+    }
+}

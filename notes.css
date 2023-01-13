@@ -1,0 +1,128 @@
+.a_3,.a_4,.a_5,.a_6,.a_7,.a_8{
+    color:rgba(0, 0, 0, 0.442);
+    position:relative;
+    top:80px;
+    left:60px;
+    font-size: 23px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.a_3:hover{
+    color:black;
+    text-decoration: none;
+}
+
+.a_4:hover{
+    color:black;
+    text-decoration: none;
+}
+
+.a_5:hover{
+    color:black;
+    text-decoration: none;
+}
+
+.a_5:hover{
+    color:black;
+    text-decoration: none;
+}
+
+.a_6:hover{
+    color:black;
+    text-decoration: none;
+}
+
+.a_7:hover{
+    color:black;
+    text-decoration: none;
+}
+
+.a_8:hover{
+    color:black;
+    text-decoration: none;
+}
+
+.third_sem{
+    width:200px;
+    height:200px;
+    background-color:#ded4f7;
+    margin:40px;
+    border-radius:5%;
+}
+
+.third_sem:hover{
+    background-color:white;
+    box-shadow: 10px 10px 10px #ccc;
+}
+
+.fourth_sem{
+    width:200px;
+    height:200px;
+    background-color:#b8ece7;
+    margin:40px;
+    border-radius:5%;
+}
+
+.fourth_sem:hover{
+    background-color:white;
+    box-shadow: 10px 10px 5px #ccc;
+}
+
+.fifth_sem{
+    width:200px;
+    height:200px;
+    background-color:#f59cb5;
+    margin:40px;
+    border-radius:5%;
+}
+
+.fifth_sem:hover{
+    background-color:white;
+    box-shadow: 10px 10px 5px #ccc;
+}
+
+.sixth_sem{
+    width:200px;
+    height:200px;
+    background-color:#f2ddaa;
+    margin:40px;
+    border-radius:5%;
+}
+
+.sixth_sem:hover{
+    background-color:white;
+    box-shadow: 10px 10px 5px #ccc;
+}
+
+.seventh_sem{
+    width:200px;
+    height:200px;
+    background-color:#95b6eb;
+    margin:40px;
+    border-radius:5%;
+}
+
+.seventh_sem:hover{
+    background-color:white;
+    box-shadow: 10px 10px 5px #ccc;
+}
+
+.eigth_sem{
+    width:200px;
+    height:200px;
+    background-color:#efa29b;
+    margin:40px;
+    border-radius:5%;
+}
+
+.eigth_sem:hover{
+    background-color:white;
+    box-shadow: 10px 10px 5px #ccc;
+}
+
+.head_notes{
+    font-family: 'Montserrat';
+    text-align:center;
+    padding-top:20px;
+    color:#17a2b8;
+}

@@ -1,0 +1,59 @@
+i{
+    padding-right:10px;
+}
+
+.even_sem{
+    background-color:beige;
+    width:100%;
+    height:auto;
+    font-family: 'Montserrat';
+    font-size:23px;
+    padding-top:60px;
+    padding-left:30px;
+    margin-bottom:5px;
+    color:#17a2b8;
+}
+
+.odd_sem{
+    width:100%;
+    height:auto;
+    font-family: 'Montserrat';
+    font-size:23px;
+    padding-top:60px;
+    padding-left:30px;
+    color:#17a2b8;;
+}
+
+.detailed{
+    background-color:beige;
+    font-family: 'Montserrat';
+    width:100%;
+    height:auto;
+    font-size:23px;
+    padding-top:60px;
+    padding-left:30px;
+    color:#17a2b8;
+}
+
+.btn{
+    position:relative;
+    left:1000px;
+    bottom:50px;
+}
+
+.head_course{
+    font-family: 'Montserrat';
+    text-align:center;
+    padding-top:20px;
+    padding-bottom:20px;
+    color:#17a2b8;
+}
+
+/* media queries for course book section */
+
+@media screen and (max-width:1200px){
+    .btn{
+        left:30px;
+        bottom:5px;
+    }
+}

@@ -1,0 +1,60 @@
+<!-- for course-books-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course-Books 📖</title>
+
+    <!-- css style sheet for file_1-->
+    <link rel="stylesheet" href="course_book.css">
+
+    <!-- handwriting imports-->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+    <!-- font-awesome icons-->
+    <script src="https://kit.fontawesome.com/e18916a07f.js" crossorigin="anonymous"></script>
+
+    <!-- bootstrap css and js installation-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- aos animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<body>
+    <div id="course-book">
+
+        <h1 class="head_course">Course Books</h1>
+
+        <div class="even_sem" data-aos="zoom-in">
+            <p>Even semester courses with credits</p>
+            <a href="Pdfs\even sem course book.pdf" class="btn btn-outline-info btn-lg" role="button" aria-pressed="true"><i class="fa-solid fa-map-pin"></i>EvenSem</a>
+        </div>
+
+        <div class="odd_sem" data-aos="zoom-in">
+            <p>Odd semester courses with credits</p>
+            <a href="Pdfs\odd sem course book.pdf" class="btn btn-info btn-lg" role="button" aria-pressed="true"><i class="fa-solid fa-map-pin"></i>OddSem</a>
+        </div>
+        
+        <div class="detailed" data-aos="zoom-in">
+            <p>Detailed course book with each course information</p>
+            <a href="Pdfs\CourseBook_BTech_Chemical.pdf" class="btn btn-outline-info btn-lg" role="button" aria-pressed="true"><i class="fa-solid fa-map-pin"></i>Detailed</a>
+        </div>
+        
+    </div>
+
+    <!-- aos animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+			duration: 1000 
+        });
+    </script>
+
+</body>
+</html>

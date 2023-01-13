@@ -1,0 +1,800 @@
+body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+/* font-awesome icons */
+
+i{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.fa-regular.fa-calendar{
+    color:#EFC050;
+}
+
+.fa-solid.fa-book{
+    color:#45B8AC;
+}
+
+.fa-solid.fa-clock{
+    color:#6B5B95;
+}
+
+.fa-solid.fa-phone.fa-2x{
+    color:#D65076;
+}
+
+.fa-solid.fa-handshake{
+    color:#FF6F61;
+}
+
+.fa-solid.fa-graduation-cap.fa-2x{
+    color:#BC243C;
+}
+
+.fa-solid.fa-briefcase{
+    color:white;
+}
+
+.fa-solid.fa-pen{
+    color:white;
+}
+
+.fa-solid.fa-calendar-days{
+    color:white;
+}
+
+/* top section */
+
+.building{
+
+    width:100%;
+    height:617px; 
+
+    /* for making image transparent */
+    opacity: 0.3; 
+
+    /* for black-white image */
+    /* -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%); */
+}
+
+.logo{
+    width:70px;
+    height:70px;
+    border-radius: 100%;
+}
+
+.intro{
+    position:relative;
+    bottom:450px;
+    text-align: center;
+}
+
+.heading{
+    padding-top:20px;
+    color:#544d4d;
+    width:830px;
+    margin:auto;
+
+    /* heading handwriting */
+    font-family: 'Montserrat';
+    font-size: 35px;
+    text-shadow: 3px 3px 3px #9D8F8F;
+}
+
+.heading_link{
+    color:#544d4d;
+}
+
+.heading_link:hover{
+    text-decoration: none;
+    color:#315da3;
+}
+
+.top_hr{
+    width:700px;
+    border:solid;
+    border-top:2px;
+    color:#544d4d;
+}
+
+.intro_para{
+    padding-top:20px;
+    width:690px;
+    margin:auto;
+    line-height:27px;
+    color:black;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+body{
+    margin:0px;
+}
+
+/* navigation bar */
+
+.navbar-brand{
+    padding-right:440px;
+    color:black;
+}
+
+.navbar-brand:hover{
+    color:#315da3;
+}
+
+.nav_customised{
+    position:relative;
+    bottom:870px;
+}
+
+.nav-link{
+    color:black;
+    font-size:16px;
+}
+
+.nav-link:hover{
+    color:#315da3;
+}
+
+/* translate on hover effect : nav-links */
+
+.zoom_home:hover .nav-link{
+    transform:translateY(-5px);
+    transition: all 0.5s;
+}
+
+.zoom_v_a_m:hover .nav-link{
+    transform:translateY(-5px);
+    transition: all 0.5s;
+}
+
+.zoom_acad:hover .nav-link{
+    transform:translateY(-5px);
+    transition: all 0.5s;
+}
+
+.zoom_updates:hover .nav-link{
+    transform:translateY(-5px);
+    transition: all 0.5s;
+}
+
+.zoom_info:hover .nav-link{
+    transform:translateY(-5px);
+    transition: all 0.5s;
+}
+
+.zoom_contact:hover .nav-link{
+    transform:translateY(-5px);
+    transition: all 0.5s;
+}
+
+.zoom_heading:hover .navbar-brand{
+    transform:translateY(-5px);
+    transition: all 0.5s;
+}
+
+/* media query for top section */
+
+@media screen and (max-width:838px){
+    .heading{
+        width:100%;
+        margin-left:20px;
+        margin-right:20px;
+    }
+    .top_hr{
+        width:100%;
+        margin-left:20px;
+        margin-right:40px;
+    }
+    .intro_para{
+        width:100%;
+        margin-left:20px;
+        margin-right:20px;
+        text-align:left;
+    }
+}
+
+@media screen and (max-width:468px){
+    .top_hr,.logo,.heading,.intro_para{
+        position:relative;
+        bottom:100px;
+    }
+    .navbar{
+        position:relative;
+        bottom:150px;
+    }
+}
+
+@media screen and (max-width:390px){
+    .top_hr,.logo,.heading,.intro_para{
+        position:relative;
+        bottom:10px;
+    }
+}
+
+@media screen and (max-width:362px){
+    .top_hr,.logo,.heading,.intro_para{
+        position:relative;
+        bottom:100px;
+    }
+    .navbar{
+        position:relative;
+        bottom:250px;
+    }
+}
+
+/* vision and mission */
+
+#vision_and_mission{
+    position:relative;
+    bottom:350px;
+    background-color: #F7F7F7;
+    text-align:center;
+    height:auto;
+    width:100%;
+}
+
+.v_a_m_heading{
+    padding-top:60px;
+    color:#009B77;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    padding:30px;
+}
+
+.v_heading,.m_heading{
+    padding-top:25px;
+    color:#009B77;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    padding-bottom:5px;
+}
+
+.m_heading{
+    padding-top:5px;
+}
+
+.v_text,.m_text{
+    width:900px;
+    margin:auto;
+    text-align:left;
+    line-height:38px;
+    color:black;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.underlining{
+    width:120px;
+    border:solid;
+    border-top:2px;
+    color:#3D9970;
+    margin-bottom:25px;
+}
+
+/* media query for vision and mission */
+
+@media screen and (max-width:946px){
+    .v_text,.m_text{
+        margin-left:20px;
+        margin-right:20px;
+        width:100%;
+    }
+}
+
+@media screen and (max-width:842px){
+    #vision_and_mission{
+        position:relative;
+        bottom:450px;
+    }
+}
+
+@media screen and (max-width:460px){
+    #vision_and_mission{
+        position:relative;
+        bottom:550px;
+    }
+}
+
+@media screen and (max-width:337px){
+    #vision_and_mission{
+        position:relative;
+        bottom:650px;
+    }
+}
+
+/* acadamics section */
+
+#acadamic_related{
+    padding-top:50px;
+    background-color:#EEEEEE;
+    position:relative;
+    bottom:367px;
+    height:auto;
+}
+
+.start_acad{
+    padding-top:10px;
+    padding-bottom:50px;
+    text-align:center;
+    color:#dc3545;
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+.notes,.acad_calender,.course_book,.time_table,.contact_details,.clubs,.grade_cards{
+    height:170px;
+    width:170px;
+    background-color:white;
+    padding-top:50px;
+    text-align:center;
+    border-radius:10px;
+    margin-right:50px;
+    margin-bottom:50px;
+
+    /* for shadow of the box */
+    box-shadow: 10px 10px 5px #ccc;
+}
+
+/* for hover-move up transition: acad related grids */
+
+#acadamic_related .notes:hover{
+    transform:translateY(-10px);
+    transition: all 0.5s;
+}
+
+#acadamic_related .acad_calender:hover{
+    transform:translateY(-10px);
+    transition: all 0.5s;
+}
+
+#acadamic_related .course_book:hover{
+    transform:translateY(-10px);
+    transition: all 0.5s;
+}
+
+#acadamic_related .time_table:hover{
+    transform:translateY(-10px);
+    transition: all 0.5s;
+}
+
+#acadamic_related .contact_details:hover{
+    transform:translateY(-10px);
+    transition: all 0.5s;
+}
+
+#acadamic_related .clubs:hover{
+    transform:translateY(-10px);
+    transition: all 0.5s;
+}
+
+#acadamic_related .grade_cards:hover{
+    transform:translateY(-10px);
+    transition: all 0.5s;
+}
+
+.h4_text_acad{
+    padding-top:20px;
+}
+
+.text_acad{
+    color:black;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size:17px;
+}
+
+.text_acad:hover{
+    text-decoration:none;
+    color:#315da3;
+}
+
+/* media query for acad links */
+
+@media screen and (max-width:842px){
+    #acadamic_related{
+        position:relative;
+        bottom:455px;
+    }
+}
+
+@media screen and (max-width:460px){
+    #acadamic_related{
+        position:relative;
+        bottom:555px;
+    }
+}
+
+@media screen and (max-width:337px){
+    #acadamic_related{
+        position:relative;
+        bottom:655px;
+    }
+}
+
+/* for regular updates */
+
+#regular_updates{
+    position:relative;
+    bottom:368px;
+}
+
+.a_text_deadlines{
+    text-align:center;
+    color:#6B5B95;
+    font-family: 'Montserrat';
+    font-size: 27px;
+    position:relative;
+    bottom:500px;
+    left:200px;
+}
+
+.a_text_deadlines:hover{
+    text-decoration:none;
+    color:#315da3;
+}
+
+.deadlines{
+    width:100%;
+    height:617px; 
+    opacity: 0.3; 
+    /* -webkit-filter: grayscale(100%);  
+    filter: grayscale(100%); */
+}
+
+/* .hr_deadlines{
+    width:820px;
+    border:solid;
+    border-top:2px;
+    color:#6B5B95;
+    margin-bottom:25px;
+    position:relative;
+    bottom:500px;
+} */
+
+/* media query for regular updates */
+
+@media screen and (max-width:994px){
+    #regular_updates{
+        position:relative;
+        bottom:365px;
+    }
+}
+
+@media screen and (max-width:842px){
+    #regular_updates{
+        position:relative;
+        bottom:465px;
+    }
+}
+
+@media screen and (max-width:460px){
+    #regular_updates{
+        position:relative;
+        bottom:565px;
+    }
+}
+
+@media screen and (max-width:336px){
+    #regular_updates{
+        position:relative;
+        bottom:665px;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .hr_deadlines,.a_text_deadlines{
+        width:70%;
+        position:relative;
+        left:30px;
+        text-align:left;
+    }
+}
+
+@media screen and (max-width:326px){
+    .hr_deadlines,.a_text_deadlines{
+        position:relative;
+        bottom:550px;
+    }
+}
+
+@media screen and (max-width:258px){
+    .hr_deadlines,.a_text_deadlines{
+        position:relative;
+        bottom:580px;
+    }
+}
+
+/* side nav-bar:regular updates */
+
+.nav-container-deadlines{
+    position:absolute;
+    top:35%;
+}
+
+.nav-container-deadlines a{
+    text-align:center;
+    color:black;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    display:block;
+    background-color: white;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:15px;
+    padding-bottom:15px;
+    width:200px;
+    margin-bottom:10px;
+    margin-left:0px;
+    letter-spacing:1.5px;
+    
+    position:relative;
+
+    /* to hide text */
+    margin-left:-120px;
+
+    /* for smooth transition */
+    transition: all 0.8s;
+}
+
+.nav-container-deadlines a:hover{
+    color:black;
+    text-decoration: none;
+}
+
+.nav-container-deadlines a span{
+    float:right;
+    width:50px; 
+    height:100%;
+    text-align:center;
+    background-color:#6B5B95;
+}
+
+.nav-container-deadlines a:hover{
+    margin-left:0px;
+}
+
+/* useful information */
+
+#useful_information{
+    position:relative;
+    bottom:451px;
+    text-align:left;
+    padding-left:60px;
+    padding-right:300px;
+    padding-top:50px;
+    background-color: #F7F7F7;
+    width:100%;
+}
+
+.faculty{
+    padding-top:30px;
+}
+
+.faculty,.students,.council,.mentors,.activities{
+    padding-bottom:30px;
+    line-height:32px;
+    color:black;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.btn_faculty{
+    position:relative;
+    left:1025px;
+    bottom:95px;
+}
+
+.btn_students{
+    position:relative;
+    left:1025px;
+    bottom:75px;
+}
+
+.btn_council{
+    position:relative;
+    left:1025px;
+    bottom:75px;
+}
+
+.btn_mentors{
+    position:relative;
+    left:1025px;
+    bottom:75px;
+}
+
+.btn_activities{
+    position:relative;
+    left:1025px;
+    bottom:77px;
+}
+
+.heading_info{
+    color:#007bff;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    padding-bottom:15px;
+}
+
+/* media queries for information section */
+
+@media screen and (max-width:874px){
+    #useful_information{
+        position:relative;
+        bottom:480px;
+    }
+}
+
+@media screen and (max-width:842px){
+    #useful_information{
+        position:relative;
+        bottom:590px;
+    }
+}
+
+@media screen and (max-width:463.33px){
+    #useful_information{
+        position:relative;
+        bottom:620px;
+    }
+}
+
+@media screen and (max-width:460px){
+    #useful_information{
+        position:relative;
+        bottom:720px;
+    }
+}
+
+@media screen and (max-width:336px){
+    #useful_information{
+        position:relative;
+        bottom:820px;
+    }
+}
+
+@media screen and (max-width:325.33px){
+    #useful_information{
+        position:relative;
+        bottom:870px;
+    }
+} 
+
+@media screen and (max-width:266px){
+    #useful_information{
+        position:relative;
+        bottom:920px;
+    }
+} 
+
+@media screen and (max-width:874px){
+    #useful_information{
+        padding-right:50px;
+    }
+}
+
+@media screen and (max-width:1120px){
+    .btn_council,.btn_mentors,.btn_activities,.btn_students,.btn_faculty{
+        position:relative;
+        left:30px;
+        bottom:25px;
+        padding-top:50px;
+    }
+}
+
+/* contact details */
+
+#contact_details{
+    position:relative;
+    bottom:451px;
+    background-color:#EEEEEE;
+    padding-left:150px;
+    height:1000px;
+}
+
+.contact_head{
+    color:#6B5B95;
+    font-family: 'Montserrat';
+    font-size: 35px;
+    text-align:center;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.text_head_contact{
+    color:#6B5B95;
+    font-family: 'Montserrat';
+    font-size: 23px;
+    padding-bottom:10px;
+}
+
+.text_contact{
+    color:black;
+    font-size:18px;
+}
+
+.custom_social,.custom_social_insta{
+    padding-right:15px;
+    color:#6B5B95;
+}
+
+.custom_social_insta:hover{
+    color:rgb(229, 46, 83);
+}
+
+.a_imp_links{
+    color:black;
+    font-size:20px;
+}
+
+.a_imp_links:hover{
+    color:#17a2b8;
+    text-decoration:none;
+}
+
+.custom_head_imp{
+    color:#6B5B95;
+    font-family: 'Montserrat';
+}
+
+/* .hr_imp{
+    width:230px;
+    border:solid;
+    border-top:2px;
+    color:#6B5B95;
+    position:relative;
+    right:460px;
+} */
+
+/* media query for last section */
+
+@media screen and (max-width:991.33px){
+    /* spacing margin between links */
+}
+
+@media screen and (max-width:874px){
+    #contact_details{
+        position:relative;
+        bottom:500px;
+    }
+}
+
+@media screen and (max-width:842px){
+    #contact_details{
+        position:relative;
+        bottom:600px;
+    }
+}
+
+@media screen and (max-width:463.33px){
+    #contact_details{
+        padding-left:50px;
+        position:relative;
+        bottom:630px;
+    }
+}
+
+@media screen and (max-width:460px){
+    #contact_details{
+        position:relative;
+        bottom:730px;
+    }
+}
+
+@media screen and (max-width:336px){
+    #contact_details{
+        position:relative;
+        bottom:830px;
+    }
+}
+
+@media screen and (max-width:324px){
+    #contact_details{
+        position:relative;
+        bottom:870px;
+    }
+}
